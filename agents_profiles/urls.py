@@ -31,4 +31,4 @@ urlpatterns = [
     path('preliminary/', user_views.preliminary, name='preliminary'),
     path('sendPreliminary/', user_views.sendPreliminary, name='sendPreliminary'),
     # path('submited/', user_views.submission, name='submission')
-] + static(settings.STATIC_URL,document_root = settings.STATIC_ROOT)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
